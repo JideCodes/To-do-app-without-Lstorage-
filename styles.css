@@ -1,0 +1,29 @@
+*{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+h1 {
+    color: #ef2c5a;
+    animation-name: bounce-in;
+    animation-duration: infinite;
+  }
+  button {
+    padding: 14px 30px;
+    background-color: #03071e;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #ef2c5a;
+  }
+  
+  input {
+    border: none;
+    background-color: #eaecf0;
+    padding: 14px;
+  }
+
+  li{
+    font-size: 2rem;
+    font-weight: 300;
+  }
