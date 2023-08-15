@@ -10,7 +10,9 @@ function addNew(){
 
 button.addEventListener('click', function(){
   if (input.value === ""){
-    return;
+    return false;
+  } else if(input.value === " "){
+    return false;
   } else{
     addNew();
   }
